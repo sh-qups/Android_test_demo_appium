@@ -14,14 +14,17 @@ class IntroPage(BasePage):
     def test_into_to_home(self):
         driver = self.driver
         sleep(2)
-        # print(self.locator.language)
         driver.find_element_by_xpath(self.locator.language).click()
         sleep(2)
         driver.find_element_by_id(self.locator.maybe_latter).click()
         sleep(2)
         driver.find_element_by_id(self.locator.location_permission_this_time).click()
         sleep(20)
-        res = driver.find_element_by_xpath(self.locatorHomepage.location).text
+        # res = driver.find_element_by_xpath(self.locatorHomepage.location).click()
+        # sleep(5)
+        element = driver.find_element_by_xpath(self.locatorHomepage.location)
+        res= element.text
+        print(res)
         print("element found in homepage: " + res)
         assert res == 'Location'
 

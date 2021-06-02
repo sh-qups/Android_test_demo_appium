@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 allure-python-commons = "*"
+pytest = "*"
+appium-python-client = "*"
 
 [dev-packages]
 

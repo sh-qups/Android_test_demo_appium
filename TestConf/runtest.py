@@ -1,5 +1,5 @@
 import os
-import webbrowser
+
 import pathlib
 from datetime import datetime
 
@@ -20,8 +20,6 @@ f.close()
 
 
 
-
-# run emulator
 
 
 
