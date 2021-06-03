@@ -9,12 +9,17 @@
 
 class BasePage(object):
 
-            def __init__(self, driver, base_url="about:blank"):
-                self.base_url = base_url
-                self.driver = driver
-                self.timeout = 30
+    def __init__(self, driver, base_url="about:blank"):
+        self.base_url = base_url
+        self.driver = driver
+        self.timeout = 30
 
-            #
+    def go_back(self):
+        self.driver.back()
+
+    def scroll(self):
+        pass
+
             # def find_element(self, *locator):
             #     return self.driver.find_element(*locator)
 

@@ -24,6 +24,7 @@ class HomePageLocator(object):
     add_post_plus_sign = 'com.bikroy:id/btn_post'       # id
     chat = 'com.bikroy:id/main_bottom_panel_chat'           # id
     account = 'com.bikroy:id/main_bottom_panel_my_account'  # id
+    first_add = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.widget.ImageView'  # xpath
 
 
 class LocationPageLocator(object):
@@ -76,3 +77,31 @@ class ChatsPageLocator(object):
 
 class AccountPageLocator(object):
     demo = ''  # id
+
+
+class LoginPageLocator(object):
+    gmail = 'com.bikroy:id/sign_in_google_login_button'  # id
+    facebook = 'com.bikroy:id/sign_in_facebook_login_button'  # id
+    email = 'com.bikroy:id/sign_in_sign_up_email_button'  # id
+
+    email_input = 'com.bikroy:id/sign_in_email'  # id
+    password_input = 'com.bikroy:id/sign_in_password'  # id
+    login = 'com.bikroy:id/register_register_button'  # id
+    forgot_password = 'com.bikroy:id/register_forgot_password'  # id
+    # dont_have_account = 'com.bikroy:id/register_have_account_text'  # id
+    signup = 'com.bikroy:id/register_signup_button'  # id
+
+
+class ForgotPasswordPageLocator(object):
+    email = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup[2]/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText'  # xpath
+    get_me_new_password = 'com.bikroy:id/forgot_password_get_me_password'  # id
+
+
+class SignupPageLocator(object):
+    name_input = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText'  # xpath
+    email_input = 'com.bikroy:id/sign_in_email'  # id
+    password_input = 'com.bikroy:id/sign_in_password'  # id
+    password_again_input = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.FrameLayout/android.widget.EditText'  # xpath
+    signup = 'com.bikroy:id/register_register_button'  # id
+    login = 'com.bikroy:id/register_signup_button'  # id
+    terms_nd_condition = 'com.bikroy:id/sign_in_terms'   # id

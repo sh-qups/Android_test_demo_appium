@@ -11,8 +11,8 @@ class BaseTest(unittest.TestCase):
                                   'deviceName': 'emulator-5554',
                                   'app-package': 'com.bikroy',
                                   'app-activity': 'se.saltside.activity.main.MainActivity',
-                                  # 'app': '/home/asif-rouf/software/Bikroy Sell Rent Buy Find Jobs_v1.2.01_apkpure.com.apk'
-                                  'app': '/home/rk/PycharmProjects/Android_test_demo_appium/Apk/Bikroy Sell Rent Buy Find Jobs_v1.2.01_apkpure.com.apk'
+                                  'app': '/home/asif-rouf/Sh/Android_test_demo_appium/Apk/Bikroy Sell Rent Buy Find Jobs_v1.2.01_apkpure.com.apk'
+                                  # 'app': '/home/rk/PycharmProjects/Android_test_demo_appium/Apk/Bikroy Sell Rent Buy Find Jobs_v1.2.01_apkpure.com.apk'
                                   })
 
         # desired_capabilities = {'platformName': 'Android',

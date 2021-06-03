@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a78eebfacbf6fcef5b3181e72b3ba418234d368ffefddc7f2bf0cacc19183ca3"
+            "sha256": "53a874287bfdbf129c7dcf9e70e99bcbd243e2b2a692b5fee696ead287ff5f7f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "allure-pytest": {
+            "hashes": [
+                "sha256:9ba613858a33c6becba539966116be5720c15f8c0427122e03c41082cfaa173a",
+                "sha256:b2ba613fe33b53924fdef2f21ee72cf14c2cc39a0ee8dadefd5d6ed7c927f430"
+            ],
+            "index": "pypi",
+            "version": "==2.9.43"
+        },
         "allure-python-commons": {
             "hashes": [
                 "sha256:07e366f099c5ae248a1e8c56713bc9c25316ce8269944b4b038c62d2aacd8dbb",
@@ -85,6 +93,22 @@
             ],
             "index": "pypi",
             "version": "==6.2.4"
+        },
+        "pytest-html-lee": {
+            "hashes": [
+                "sha256:39ff05245763fb2368a05f32ecdb1626a66d7ed9f26b0f1d513914501005c524",
+                "sha256:c4b2fdf413269712575f8ab8b1713acdf9a965ccfe613cf11bef75493439f350"
+            ],
+            "index": "pypi",
+            "version": "==0.0.1"
+        },
+        "pytest-metadata": {
+            "hashes": [
+                "sha256:576055b8336dd4a9006dd2a47615f76f2f8c30ab12b1b1c039d99e834583523f",
+                "sha256:71b506d49d34e539cc3cfdb7ce2c5f072bea5c953320002c95968e0238f8ecf1"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
+            "version": "==1.11.0"
         },
         "selenium": {
             "hashes": [
