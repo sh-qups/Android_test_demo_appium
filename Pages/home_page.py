@@ -25,8 +25,8 @@ class HomePage(BasePage):
         page.go_to_home()
 
     def login(self):
-        email = ''
-        password = ''
+        email = 'shashwata001rk@gmail.com'
+        password = 'shashwata'
         driver = self.driver
         driver.find_element_by_xpath(self.locatorLoginPage.email).click()
         sleep(2)
